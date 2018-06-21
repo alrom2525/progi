@@ -1,0 +1,179 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background: #445A68;
+	color: #fff;
+}
+
+#maincontainer {
+	width: 1300px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	overflow: hidden;	
+	
+}
+
+header {
+	height: 100px;
+	background: #000;
+	font-family:Arial, Helvetica, sans-serif;
+}	
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+}
+
+button {
+    background-color: #00629D;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #043766;
+}
+
+
+#headermenux {
+	margin: auto;
+	width: 500px
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+	background: #00629D;
+	height: 50px;
+}
+
+nav h2 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;	
+}
+
+
+/*Start Main menu*/
+
+.bordersm{
+			width:100%;
+			
+			background:#00629D;
+			position:fixed;
+}
+
+ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#00629D;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+/*End Main menu*/
+
+#maincontentx {
+		width: 1300px;
+		/*height: 500px;*/
+		height: auto;
+		float: left;
+		background: #EAEDF2;
+		margin-top: 10px;
+		margin-right: 10px;
+		text-align: center;
+		color: black;
+		font-size: 20px;
+}
+
+#maincontentx h2 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;		
+
+}
+
+.auctionx {
+	font-size: 22px;
+	text-align: left;
+	line-height: 30px;
+	font-family: 'Times New Roman';
+	color: #00004d;
+	padding-left: 15px;
+	border: 1px solid black;
+}
+
+#maincontentx h6 {
+	font-size: 8px;
+	text-align: center;
+	line-height: 50px;		
+}
+
+
+footer {
+	background: #000;
+	clear: both;
+
+	font-size: 16px;
+	text-align: right;
+	padding: 25px;
+	font-style: italic;
+}
+
+footer h2 {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	font-style: italic;
+}
+
+
+.error {color: #FF0000;}
+
+
+.itemfront{
+     float:left;
+     width: 86px;
+     height:98px;
+     display:block;    
+}
